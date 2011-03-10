@@ -1,0 +1,22 @@
+div.pagination a {
+  float: left;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background: #eee;
+  color: #009;
+  text-decoration: none;
+  display: block;
+  margin-right: 1px;
+}
+
+div.pagination span {
+  float: left;
+  padding: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 15px;
+}

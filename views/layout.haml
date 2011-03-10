@@ -1,0 +1,26 @@
+!!! 5
+%html
+  %head
+    %title 
+      = @title || 'Undefined'
+    %link{:type => 'text/css', :rel => 'stylesheet', :href => '/public/css/reset.css'}
+    %link{:type => 'text/css', :rel => 'stylesheet', :href => '/public/css/text.css'}
+    %link{:type => 'text/css', :rel => 'stylesheet', :href => '/public/css/960.css'}
+    %link{:type => 'text/css', :rel => 'stylesheet', :href => '/public/css/app.css'}
+  %body
+    .container_12
+      #page
+        .grid_12
+          #header
+            #nav
+        .clear
+        .grid_10
+          #content
+            = yield
+        .grid_2
+          #sidebar
+            The sidebar
+        .clear
+        .grid_12
+          #footer
+            The footer
