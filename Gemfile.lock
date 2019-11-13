@@ -26,7 +26,9 @@ GEM
     haml (5.0.0)
       temple (>= 0.8.0)
       tilt
-    nokogiri (1.4.4)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     paginate-simple (0.1.2)
     pagination_render_logic (0.0.2)
     rack (1.2.1)
