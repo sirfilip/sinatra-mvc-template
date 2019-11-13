@@ -22,7 +22,7 @@ GEM
       dm-core (~> 1.0.2)
     do_sqlite3 (0.10.3)
       data_objects (= 0.10.3)
-    extlib (0.9.15)
+    extlib (0.9.16)
     haml (5.0.0)
       temple (>= 0.8.0)
       tilt
