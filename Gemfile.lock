@@ -29,7 +29,7 @@ GEM
     nokogiri (1.4.4)
     paginate-simple (0.1.2)
     pagination_render_logic (0.0.2)
-    rack (1.2.1)
+    rack (1.6.13)
     rack-test (0.5.7)
       rack (>= 1.0)
     rspec (2.5.0)
